@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.1.2](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.1.2) (2021-06-14)
+
+[Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.1...v0.1.2)
+
+**Merged pull requests:**
+
+- ci: updating subject-case rule for pr title to allow any case [\#8](https://github.com/chrisjohnson00/kakfa-message-ui/pull/8) ([chrisjohnson00](https://github.com/chrisjohnson00))
+- chore: bump wagoid/commitlint-github-action from 3.0.6 to 3.1.4 [\#6](https://github.com/chrisjohnson00/kakfa-message-ui/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore: bump actions/cache from 2.1.4 to 2.1.6 [\#5](https://github.com/chrisjohnson00/kakfa-message-ui/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore: bump mathieudutour/github-tag-action from 5.3 to 5.5 [\#4](https://github.com/chrisjohnson00/kakfa-message-ui/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore: bump charmixer/auto-changelog-action from 1.2 to 1.4 [\#3](https://github.com/chrisjohnson00/kakfa-message-ui/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v0.1.1](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.1.1) (2021-06-12)
 
 [Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.0...v0.1.1)
