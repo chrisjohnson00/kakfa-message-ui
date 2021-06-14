@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.3](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.1.3) (2021-06-14)
+
+[Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.2...v0.1.3)
+
+**Merged pull requests:**
+
+- ci: commit message lint fix for subject case [\#9](https://github.com/chrisjohnson00/kakfa-message-ui/pull/9) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.1.2](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.1.2) (2021-06-14)
 
 [Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.1...v0.1.2)
