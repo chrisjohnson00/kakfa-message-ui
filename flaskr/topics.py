@@ -19,7 +19,8 @@ def index():
     "ip":"192.168.1.132",
     "port":"22"
   },
-  "topic":"wakeup-computer"
+  "topic":"wakeup-computer",
+  "completion_topic":"nas-backup"
 }
 '''
     # @TODO pull `topics` from a yaml file in the environment, injectable at deploy time via a config map
