@@ -24,7 +24,7 @@ def index():
 '''
     # @TODO pull `topics` from a yaml file in the environment, injectable at deploy time via a config map
     topics = [
-        {'name': 'wakeup-computer', 'message': json_str},
+        {'name': 'wakeup-computer', 'message': json_str}, {'name': 'nas-backup', 'message': ''}
     ]
     if request.method == 'POST':
         app.logger.info("Post on / received!")
