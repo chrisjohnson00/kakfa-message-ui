@@ -1,5 +1,18 @@
 # Changelog
 
+## [v0.2.0](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.2.0) (2021-07-16)
+
+[Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.3...v0.2.0)
+
+**Implemented enhancements:**
+
+- feat: adding file mover payload [\#16](https://github.com/chrisjohnson00/kakfa-message-ui/pull/16) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
+**Merged pull requests:**
+
+- ci: skip release on workflow change [\#10](https://github.com/chrisjohnson00/kakfa-message-ui/pull/10) ([chrisjohnson00](https://github.com/chrisjohnson00))
+- chore: bump WyriHaximus/github-action-get-previous-tag from 1.0.1 to 1.1 [\#2](https://github.com/chrisjohnson00/kakfa-message-ui/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v0.1.3](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.1.3) (2021-06-14)
 
 [Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.2...v0.1.3)
