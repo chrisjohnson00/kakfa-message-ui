@@ -20,4 +20,4 @@ PyPi Dependency updates
     pip install --upgrade pip
     pip install --upgrade kafka-python Flask gunicorn
     pip freeze > requirements.txt
-    sed -i '/pkg-resources/d' requirements.txt
+    sed -i '/pkg_resources/d' requirements.txt
