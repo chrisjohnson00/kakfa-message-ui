@@ -10,25 +10,6 @@ bp = Blueprint('topics', __name__, url_prefix='/')
 
 @bp.route('/', methods=('GET', 'POST'))
 def index():
-    json_str = '''
-{
-  "py/object":"kme.kme.KMEMessage",
-  "message":{
-    "name":"nfs2",
-    "mac_address":"b8:ca:3a:5d:28:b8",
-    "ip":"192.168.1.132",
-    "port":"22"
-  },
-  "topic":"wakeup-computer"
-}
-'''
-    file_mover_json = '''
-{
-  "source_full_path":"/tv/Pennyworth/Season 2/Pennyworth - S02E01 - The Heavy Crown Bluray-1080p.mkv",
-  "move_type":"to_encode",
-  "type":"tv",
-  "quality":"1080p"
-}'''
     metadata_cleaner_json = '''
 {
   "type":"tv",
@@ -37,8 +18,7 @@ def index():
 '''
     # @TODO pull `topics` from a yaml file in the environment, injectable at deploy time via a config map
     topics = [
-        {'name': 'wakeup-computer', 'message': json_str},
-        {'name': 'handbrakeFile', 'message': file_mover_json},
+        {'name': 'postMove', 'message': metadata_cleaner_json}
     ]
     if request.method == 'POST':
         app.logger.info("Post on / received!")
