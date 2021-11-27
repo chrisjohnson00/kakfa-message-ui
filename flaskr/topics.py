@@ -30,7 +30,10 @@ def index():
   "quality":"1080p"
 }'''
     metadata_cleaner_json = '''
-
+{
+  "type":"tv",
+  "file_path":"/tv/The Wheel of Time/Season 1/The Wheel of Time - S01E01 - Leavetaking WEBDL-1080p.mkv"
+}
 '''
     # @TODO pull `topics` from a yaml file in the environment, injectable at deploy time via a config map
     topics = [
