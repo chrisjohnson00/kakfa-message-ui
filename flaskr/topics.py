@@ -12,8 +12,8 @@ bp = Blueprint('topics', __name__, url_prefix='/')
 def index():
     metadata_cleaner_json = '''
 {
-  "type":"tv",
-  "file_path":"/tv/The Wheel of Time/Season 1/The Wheel of Time - S01E01 - Leavetaking WEBDL-1080p.mkv"
+  "type":"movie",
+  "file_path":"/movies/The Hollars (2016)/The Hollars (2016).mp4"
 }
 '''
     # @TODO pull `topics` from a yaml file in the environment, injectable at deploy time via a config map
