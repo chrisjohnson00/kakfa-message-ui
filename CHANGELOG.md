@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.3.0](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.3.0) (2021-11-27)
+
+[Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.2.0...v0.3.0)
+
+**Implemented enhancements:**
+
+- feat: update to only include metadata cleaner messages [\#42](https://github.com/chrisjohnson00/kakfa-message-ui/pull/42) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.2.0](https://github.com/chrisjohnson00/kakfa-message-ui/tree/v0.2.0) (2021-07-16)
 
 [Full Changelog](https://github.com/chrisjohnson00/kakfa-message-ui/compare/v0.1.3...v0.2.0)
