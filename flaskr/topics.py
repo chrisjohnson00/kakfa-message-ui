@@ -29,6 +29,9 @@ def index():
   "type":"tv",
   "quality":"1080p"
 }'''
+    metadata_cleaner_json = '''
+
+'''
     # @TODO pull `topics` from a yaml file in the environment, injectable at deploy time via a config map
     topics = [
         {'name': 'wakeup-computer', 'message': json_str},
